@@ -1,24 +1,24 @@
 body{
-    background: #eee;
-    color: #333;
+    background: rgba(245, 238, 238, 0.959);
+    color: #161617fb;
     font-family: sans-serif;
     font-size:15px;
 }
 
 #wrapper{
-    background: #fff;
+    background: rgb(252, 252, 252);
     width: 1100px;
     margin: 20px auto;
 }
 
 #wrapper header{
-    background: #232323;
+    background: #1717d8fb;
     padding: 20px;
 }
 
 #wrapper header hgroup{
     float: left;
-    color: #fff;
+    color: rgb(239, 247, 12);
 }
 
 #wrapper header nav{
@@ -39,7 +39,7 @@ body{
 
 #wrapper header nav ul li a{
     padding: 15px;
-    color: #fff;
+    color: rgb(239, 247, 12);
     text-decoration: none;
 }
 
@@ -48,12 +48,12 @@ body{
 }
 
 footer{
-    background: #232323;
+    background: #1717d8fb;
     padding: 20px;
 }
 
     footer a{
-    color: #fff;
+    color: rgb(239, 247, 12);
     text-decoration: none;
 }
 

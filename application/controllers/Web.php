@@ -9,14 +9,14 @@ class Web extends CI_Controller{
     }
 
     public function index(){
-        $data['judul'] = "Halaman About";
+        $data['judul'] = "Beranda";
         $this->load->view('v_header',$data);
         $this->load->view('v_index',$data);
         $this->load->view('v_footer',$data);
     }
     public function about()
     {
-    $data['judul'] = "Halaman About";
+    $data['judul'] = "Tentang Saya";
     $this->load->view('v_header', $data);
     $this->load->view('v_about', $data);
     $this->load->view('v_footer', $data);

@@ -20,7 +20,7 @@ method="post">
                     </td>
                 </tr>
                 <tr>
-                    <th>Kode MTK</th>
+                    <th>Code MTK</th>
                     <th>:</th>
                     <td>
                         <input type="text" name="kode" id="kode">
