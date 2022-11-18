@@ -2,6 +2,7 @@
 <div id="content-wrapper" class="d-flex flex-column">
     <!-- Main Content -->
     <div id="content">
+        <!-- <img src="<?= base_url('assets/img/profile/') . $user['image']; ?>" alt=""> -->
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white
 topbar mb-4 static-top shadow">

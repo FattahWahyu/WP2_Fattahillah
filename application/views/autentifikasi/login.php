@@ -16,13 +16,10 @@
 4">Halaman Login!!</h1>
                                 </div>
                                 <?= $this->session->flashdata('pesan'); ?>
-                                <form class="user" method="post"
-action="<?= base_url('autentifikasi'); ?>">
+                                <form class="user" method="post" action="<?= base_url('autentifikasi'); ?>">
                                     <div class="form-group">
-                                        <input type="text"
-class="form-control form-control-user" value="<?=
-set_value('email'); ?>" id="email" placeholder="Masukkan Alamat
-Email" name="email">
+                                        <input type="text" class="form-control form-control-user" value="<?=
+                                                                                                            set_value('email'); ?>" id="email" placeholder="Masukkan Alamat Email" name="email">
                                         <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?>
                                     </div>
                                     <div class="form-group">
@@ -36,11 +33,11 @@ Email" name="email">
                                 <hr>
                                 <div class="text-center">
                                     <a class="small" href="<?=
-base_url('autentifikasi/lupaPassword'); ?>">Lupa Password?</a>
+                                                            base_url('autentifikasi/lupaPassword'); ?>">Lupa Password?</a>
                                 </div>
                                 <div class="text-center">
                                     <a class="small" href="<?=
-base_url('autentifikasi/registrasi'); ?>">Daftar Member!</a>
+                                                            base_url('autentifikasi/registrasi'); ?>">Daftar Member!</a>
                                 </div>
                             </div>
                         </div>
